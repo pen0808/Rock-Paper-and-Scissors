@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem; 
+  background-color: black;
+  color: white;
+}
+h3{
+  font-size: 2.5rem;
+}
+#demo{
+  font-size: 2rem;
+  font-weight: 600;
+}
+#demo1{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.btn{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: black;
+  border: 1px solid blue;
+  margin: 3rem;
+  cursor: pointer;
+
+}
+.img{
+  width: 100px; 
+  
+}
+
+p{
+  margin-bottom: 1rem;
+}
+.resetbtn{
+  padding: 0.5rem 1rem;
+  background-color: rgb(138, 118, 1);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 1rem;
+}
