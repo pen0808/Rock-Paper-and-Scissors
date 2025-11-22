@@ -74,7 +74,7 @@ function playerMove(moves){
   localStorage.setItem("score", JSON.stringify(score));
 
   document.getElementById('demo').innerHTML = result;
-  document.getElementById('demo1').innerHTML = `You picked <img src="./img/${moves}-emoji.png" class="img">. Computer picked <img src="./img/${computermove}-emoji.png" class="img">.`
+  document.getElementById('demo1').innerHTML = `You picked <img src="./${moves}-emoji.png" class="img">. Computer picked <img src="./${computermove}-emoji.png" class="img">.`
   document.getElementById('demo2').innerHTML = `Win : ${score.win}, Lose : ${score.lose}, Tie : ${score.tie}`
 
   console.log(`You picked ${moves}. Computer picked ${computermove}. ${result}.\n Win : ${score.win}, Lose : ${score.lose}, Tie : ${score.tie}. `)
